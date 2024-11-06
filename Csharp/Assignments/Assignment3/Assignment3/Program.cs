@@ -52,11 +52,6 @@ namespace Assignment3
             {
                 Console.WriteLine("Not equal");
             }
-        }  
-        
-        //--------------INHERITANCE------------------
-
-
-
+        }
     }
 }
