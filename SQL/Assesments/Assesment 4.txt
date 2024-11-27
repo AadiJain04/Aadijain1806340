@@ -1,0 +1,21 @@
+----------------------------------------SOLUTIONS----------------------------------------------
+--SOLUTION 1 Write a query to fetch the details of the books written by author whose name ends with er.
+SELECT title,author FROM books WHERE author like '%er'
+
+--SOLUTION 2 Display the Title ,Author and ReviewerName for all the books from the above table 
+SELECT title , author , reviewer_name FROM books b right join reviews r on b.id = r.id;
+
+--SOLUTION 3 Display the reviewer name who reviewed more than one book. 
+SELECT reviewer_name FROM reviews GROUP BY reviewer_name HAVING count(*) > 1;
+
+--SOLUTION 4 Display the Name for the customer from above customer table  who live in same address which has character o anywhere in address 
+SELECT name FROM customer_table WHERE address like '%o%';
+
+--SOLUTION 5 Write a query to display the   Date,Total no of customer  placed order on same Date  
+SELECT DATE, count(CUSTOMER_ID) AS Final_Customers FROM orders GROUP BY DATE;
+
+--SOLUTION 6 Display the Names of the Employee in lower case, whose salary is null  
+SELECT lower(name) from Employees WHERE salary is NULL;
+
+--SOLUTION 7 Write a sql server query to display the Gender,Total no of male and female from the above 
+SELECT Gender, count(*) AS TotalNoOfCount FROM StudentDetails GROUP BY Gender;
