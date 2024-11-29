@@ -29,7 +29,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create and populate the Generic List collection
+
         List<Employees> empList = new List<Employees>
        {
            new Employees(1001, "Malcolm", "Daruwalla", "Manager", "16-11-1984", "08-06-2011", "Mumbai"),
