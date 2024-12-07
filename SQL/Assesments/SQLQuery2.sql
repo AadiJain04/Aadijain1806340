@@ -124,3 +124,34 @@ SELECT lower(name) from Employees WHERE salary is NULL;
 
 --SOLUTION 7 Write a sql server query to display the Gender,Total no of male and female from the above 
 SELECT Gender, count(*) AS TotalNoOfCount FROM StudentDetails GROUP BY Gender;
+
+
+
+
+
+
+create or alter proc calculateAvgSal (@deptId int, @avgSalary int output)
+as
+begin
+	declare @employeeCount int
+	select @avgSalary = avg(sal), @employeeCount = COUNT(empNo) from Employees where deptNo = @deptId
+	return @employeeCount
+end;
+
+declare @empCount int
+declare @empAvgSalary int
+exec @empCount = calculateAvgSal 10, @empAvgSalary output
+print 'Employee Count: ' + cast(@empCount as varchar(10)) + ' Avg Salary: ' + cast(@empAvgSalary as varchar(10))
+
+
+
+
+
+
+
+
+
+
+
+
+
