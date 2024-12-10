@@ -32,6 +32,7 @@ BEGIN
 END;
 EXEC MultiplicationTable @Number = 5, @Range = 10;
 
+
 --SOLUTION 3
 
 CREATE TABLE Student (
