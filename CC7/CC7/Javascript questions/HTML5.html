@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Numbers are Odd or Even</title>
+    <script>
+        function checkOddEven() {
+            let output = "";
+            for (let i = 0; i <= 15; i++) {
+                if (i % 2 === 0) {
+                    output += i + " is even number<br>";
+                } else {
+                    output += i + " is odd number<br>";
+                }
+            }
+            document.getElementById("result").innerHTML = output;
+        }</script>
+</head>
+<body onload="checkOddEven()">
+    <h1>Checking numbers are Even or Odd</h1>
+    <p>Numbers from 0 to 15 are odd or even :</p>
+    <div id="result"></div>
+</body>
+</html>

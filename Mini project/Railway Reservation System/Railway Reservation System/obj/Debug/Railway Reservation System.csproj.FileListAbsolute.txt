@@ -1,0 +1,7 @@
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\bin\Debug\Railway Reservation System.exe.config
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\bin\Debug\Railway Reservation System.exe
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\bin\Debug\Railway Reservation System.pdb
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\obj\Debug\Railway Reservation System.csproj.AssemblyReference.cache
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\obj\Debug\Railway Reservation System.csproj.CoreCompileInputs.cache
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\obj\Debug\Railway Reservation System.exe
+C:\Users\aadij\dotnetTraining\Mini project\Railway Reservation System\Railway Reservation System\obj\Debug\Railway Reservation System.pdb
