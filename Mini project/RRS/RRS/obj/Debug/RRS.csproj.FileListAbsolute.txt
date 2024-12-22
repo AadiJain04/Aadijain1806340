@@ -1,0 +1,7 @@
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\bin\Debug\RRS.exe.config
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\bin\Debug\RRS.exe
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\bin\Debug\RRS.pdb
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\obj\Debug\RRS.csproj.AssemblyReference.cache
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\obj\Debug\RRS.csproj.CoreCompileInputs.cache
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\obj\Debug\RRS.exe
+C:\Users\aadij\dotnetTraining\Mini project\RRS\RRS\obj\Debug\RRS.pdb

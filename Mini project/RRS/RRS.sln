@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Railway Reservation System", "Railway Reservation System\Railway Reservation System.csproj", "{4DA52487-3A95-4C87-9EDB-81E5CB54308D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RRS", "RRS\RRS.csproj", "{36DAC75C-A0F2-499A-84FC-5D641E3E8677}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DA52487-3A95-4C87-9EDB-81E5CB54308D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DA52487-3A95-4C87-9EDB-81E5CB54308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DA52487-3A95-4C87-9EDB-81E5CB54308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DA52487-3A95-4C87-9EDB-81E5CB54308D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DAC75C-A0F2-499A-84FC-5D641E3E8677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DAC75C-A0F2-499A-84FC-5D641E3E8677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DAC75C-A0F2-499A-84FC-5D641E3E8677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DAC75C-A0F2-499A-84FC-5D641E3E8677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9D854CEA-3EBC-4655-AC37-1B2ED1F84894}
+		SolutionGuid = {C6C6ED35-1358-4B09-B1C6-41C6690A5360}
 	EndGlobalSection
 EndGlobal

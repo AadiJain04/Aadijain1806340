@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DA52487-3A95-4C87-9EDB-81E5CB54308D}</ProjectGuid>
+    <ProjectGuid>{36DAC75C-A0F2-499A-84FC-5D641E3E8677}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Railway_Reservation_System</RootNamespace>
-    <AssemblyName>Railway Reservation System</AssemblyName>
+    <RootNamespace>RRS</RootNamespace>
+    <AssemblyName>RRS</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
