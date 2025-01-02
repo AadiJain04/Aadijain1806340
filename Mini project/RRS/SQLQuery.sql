@@ -1,8 +1,8 @@
 use Railways
 
---CREATE TABLE Admin (
-    --AdminID INT PRIMARY KEY IDENTITY(1,1)
---);
+CREATE TABLE Admin (
+    AdminID INT PRIMARY KEY IDENTITY(1,1)
+);
  
 
 CREATE TABLE Train (
@@ -17,9 +17,9 @@ CREATE TABLE Train (
 );
 
  
---CREATE TABLE Users (
-    --UserID INT PRIMARY KEY IDENTITY(1,1)
---);
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1)
+);
  
 CREATE TABLE Booking (
     BookingID INT PRIMARY KEY IDENTITY,
@@ -112,7 +112,7 @@ CREATE OR ALTER PROCEDURE CancelTicket
 AS
 BEGIN
     DECLARE @Seats INT, @TrainID INT;
- 
+
     SELECT @Seats = SeatsBooked, @TrainID = TrainID
     FROM Booking
     WHERE BookingID = @BookingID;
@@ -134,5 +134,5 @@ BEGIN
     WHERE IsActive = 1;
 END
 
- select * from train
+ select * from Train
  select * from booking

@@ -1,0 +1,24 @@
+﻿@using Assignment1.Models;
+@model Contact
+
+<h2>Are you sure you want to delete this contact?</h2>
+
+<form method="post" action="@Url.Action("DeleteConfirmed", new { id = Model.Id })">
+    <div class="form-group">
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName)
+        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
+

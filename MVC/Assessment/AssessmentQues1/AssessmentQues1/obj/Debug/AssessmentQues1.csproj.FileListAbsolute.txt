@@ -1,0 +1,2 @@
+C:\Users\aadij\dotnetTraining\MVC\Assessment\AssessmentQues1\AssessmentQues1\obj\Debug\AssessmentQues1.csproj.AssemblyReference.cache
+C:\Users\aadij\dotnetTraining\MVC\Assessment\AssessmentQues1\AssessmentQues1\obj\Debug\AssessmentQues1.csproj.CoreCompileInputs.cache

@@ -1,0 +1,36 @@
+﻿
+@model dynamic 
+
+@{
+    ViewBag.Title = "CustomerOrderDetails";
+}
+
+<h2>Order Details for Order ID: @Model.OrderID</h2>
+
+<table class="table">
+    <tr>
+        <th>Order Date</th>
+        <td>@Model.OrderDate</td>
+    </tr>
+    <tr>
+        <th>Required Date</th>
+        <td>@Model.RequiredDate</td>
+    </tr>
+    <tr>
+        <th>Shipped Date</th>
+        <td>@Model.ShippedDate</td>
+    </tr>
+    <tr>
+        <th>Customer Name</th>
+        <td>@Model.CustomerName</td>
+    </tr>
+    <tr>
+        <th>Customer Contact</th>
+        <td>@Model.CustomerContact</td>
+    </tr>
+    <tr>
+        <th>Customer Country</th>
+        <td>@Model.CustomerCountry</td>
+    </tr>
+</table>
+

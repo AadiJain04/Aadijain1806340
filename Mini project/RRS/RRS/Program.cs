@@ -255,7 +255,6 @@ namespace RRS
                         case 4:
                             Console.WriteLine("-------------------------------");
                             Console.WriteLine("Enter Booking ID to view your bookings:");
-                            Console.WriteLine("{* Your Train ID is your Booking ID}");
                             Console.WriteLine();
                             int myBookingID = int.Parse(Console.ReadLine());
 
